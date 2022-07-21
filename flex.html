@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .ytheader{
+            display:flex;
+            height:auto;
+            background-color: rgb(107, 37, 107);
+            border: 1px solid grey;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; 
+        }
+        .one{
+            padding-left: 30px;
+            width: 100px;
+        }
+
+        .two{
+            flex:1;
+            outline:1px solid red;
+            
+        }
+        .three{
+            outline:1px solid red;
+        }
+        .home{
+            outline:1px solid red;
+            color:white;
+            height:30px;
+        }
+        .search{
+            border-radius:25px;
+            border:none;
+            height:30px;
+            width:500px;
+            padding-left:30px;
+       
+        }
+        .download{
+            width: 200px;
+            height:30px;
+            background-color: rgb(107, 37, 107);
+            border:1px solid white;
+            color:white;
+        }
+    </style>
+    <div class="ytheader">
+        <div class="one">
+            <h1 class="home">Home</h1>
+        </div>
+        <div class="two">
+           <input type="text" placeholder="Search" class="search">
+        </div>
+        <div class="three">
+            <button class="download">Downlaod</button>
+        </div>
+    </div>
+
+    <style>
+        .flex{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width:500px;
+            background-color:#aaa;
+        }
+        .items{
+           display:flex;
+           justify-content: space-between;
+           align-items: center;
+        }
+        .items p{
+            border-bottom:1px solid #ddd;
+        }
+        .badge{
+            border-radius: 13px;
+            background-color:rgb(76, 155, 245);
+            border:none;
+            color:white;
+            font-weight: bold;
+            width:30px;
+            padding:5px;
+        }
+
+    </style>
+        <div class="flex">
+            <div class="items">
+                <p>Home</p>
+                <button class="badge">14</button>
+            </div>
+            <div class="items">
+                <p>notifications</p>
+                <button class="badge">3</button>
+            </div>
+            <div class="items">
+                <p>Messsages</p>
+                <button class="badge">5</button>
+            </div>
+        </div>
+</body>
+</html>

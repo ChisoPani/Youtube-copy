@@ -1,0 +1,36 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:150px;
+    top:56px;
+    width:75px;
+    background-color:#181818;
+}
+
+.sidebar{
+    z-index: 200;
+}
+.lsidebar{
+    display:flex;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:75px;
+    height:76px;
+}
+.lsidebar:hover{
+    background-color:#313030;
+}
+.isidebar{
+    color:white;
+    font-size: 15px;
+    margin-bottom:5px;
+}
+.subtext{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight:400px;
+}
+

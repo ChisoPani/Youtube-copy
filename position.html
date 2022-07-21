@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS pracvticed</title>
+</head>
+<body>
+    <style>
+        body{
+            height:3000px;
+            padding-top:50px;
+            padding-left:160px;
+        }
+        .header{
+            background-color: black;
+            color:white;
+            width:100%;
+            position:fixed;
+            top:0;
+            left:0px;
+            right:0px;
+            height:50px;
+            
+        }
+        .sidebar{
+            font-family: Arial;
+            background-color:#ddd;
+            height:100vh;
+            width:150px;
+            position:fixed;
+            top:50px;
+            left:0;
+            bottom:0;
+        }
+        .one{
+            background-color: lightblue;
+            height:200px;
+            width:200px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .one img{
+            height:150px;
+            width:150px;
+        }
+        .sale{
+            position:absolute;
+            background-color:black;
+            color:white;
+            padding:5px;
+            font-size: 12px;
+            top:7px;
+            right:0;
+        }
+        .cart{
+            background-color: rgba(128, 128,128, 0.6);
+            position: absolute;
+            bottom:0;
+            width:100%;
+            display:flex;
+            height:80px;
+            justify-content: center;
+            align-items: center;
+        }
+        .cart button{
+            opacity: 1;
+            background-color:white;
+            border:2px solid black;
+            padding:5px;
+        }
+        .two{
+            position: relative;
+            background-color:lightpink;
+            height:200px;
+            width:200px;
+        }
+        .absolute{
+            position:absolute;
+            bottom:0;
+            right:5px;
+            background-color: black;
+            color:white;
+            border-radius:4px;
+            padding:3px;
+        }
+
+    </style>
+    <div class="header">
+
+    </div>
+    <div class="sidebar">
+        sidebar
+    </div>
+    <div class="one">
+        <img src="https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png" alt="">
+        <div class="sale">
+            20% OFF
+        </div>
+        <div class="cart">
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="two">
+        <p>abcd</p>
+        <p class="absolute">5:39</p>
+    </div>
+</body>
+</html>
